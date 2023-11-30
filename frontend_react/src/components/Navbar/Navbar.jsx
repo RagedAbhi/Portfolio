@@ -44,9 +44,9 @@ const Navbar = () => {
         )}
       </div>
 
-      <div className="app__flex p-text">
+      {/* <div className="app__flex p-text">
         <a className='app__navbar-download' href={documents.resume} target='_blank' download='Abhilash Resume'>Resume</a>
-      </div>
+      </div> */}
     </nav>
   )
 }
