@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { images } from '../../constants'
 import { AppWrap, MotionWrap } from '../../wrapper'
 import { client } from '../../client'
+import resume from '../../assets/Resume.pdf'
 import './Footer.scss'
 
 const Footer = () => {
@@ -66,6 +67,10 @@ const Footer = () => {
         : <div>
           <h3 className='head-text'>Thank you for getting in touch!</h3>
         </div>}
+
+      <div className="copyright">
+        <a className='app__navbar-download' href={resume} target='_blank' download='Abhilash Resume'>Download Resume</a>
+      </div>
     </>
   )
 }

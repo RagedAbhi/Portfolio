@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 
 import './Navbar.scss'
 import {images } from '../../constants'
-import resume from '../../assets/Resume.pdf'
 
 const Navbar = () => {
 
@@ -43,10 +42,6 @@ const Navbar = () => {
             </ul>
           </motion.div>
         )}
-      </div>
-
-      <div className="app__flex p-text">
-        <a className='app__navbar-download' href={resume} target='_blank' download='Abhilash Resume'>Resume</a>
       </div>
     </nav>
   )
